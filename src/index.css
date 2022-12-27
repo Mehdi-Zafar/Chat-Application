@@ -26,10 +26,10 @@ body {
   border: none !important;
 }
 
-.anticon svg {
+.anticon-plus svg {
   display: block !important;
 }
 
-.anticon {
+.anticon-setting {
   margin-left: 10px !important;
 }
