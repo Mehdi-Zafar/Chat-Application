@@ -1,13 +1,35 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue&family=Creepster&family=Montserrat&family=Nunito+Sans:wght@300;400;600&family=Quicksand:wght@500&family=Raleway&family=Rubik+Spray+Paint&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Comic Neue", cursive;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+}
+
+.send-icon {
+  transform: rotate(0) !important;
+  margin-left: 10px !important;
+}
+
+#ce-social-msg-form-container {
+  background-color: whitesmoke !important;
+}
+
+#msg-textarea {
+  background-color: whitesmoke !important;
+  border: none !important;
+}
+
+.anticon svg {
+  display: block !important;
+}
+
+.anticon {
+  margin-left: 10px !important;
 }
